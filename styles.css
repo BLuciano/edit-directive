@@ -1,0 +1,32 @@
+html{
+  box-sizing: border-box;
+  font-family: 'Passion One', cursive;
+  height: 100%;
+  width: 100%;
+  border: 20px solid #001a1a;
+  background-color: #004d4d;
+  color: #fff;
+  position: fixed;
+}
+
+body{
+  height: 100%;
+  margin: 0;
+  text-align: center;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+h1{
+	font-size: 3.5em;
+	margin-top: 50px
+}
+
+.make-editable{
+	width: 400px;
+	margin: 0 auto;
+	line-height: 1.75em;
+	font-family: sans-serif;
+}
