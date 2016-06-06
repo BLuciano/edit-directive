@@ -48,7 +48,8 @@ h1{
 }
 
 .text{
-	margin-top: 50px;
+	display: block;
+	margin-top: 25px;
 	padding: 25px;
 	-webkit-transition: all 1s;
 	transition: all 1s;
