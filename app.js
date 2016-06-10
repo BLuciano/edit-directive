@@ -10,7 +10,6 @@ app.directive('makeEditable', function() {
     link : function(scope, element, attrs){
     	scope.editable = false;
     	scope.toggleEdit = function(){
-    		attrs.$set('contenteditable', !scope.editable);
     		scope.editable = !scope.editable; 
     	};
     }
