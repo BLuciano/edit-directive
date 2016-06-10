@@ -5,11 +5,13 @@ app.directive('makeEditable', function() {
     restrict: 'A',
     templateUrl: 'makeEditable.html',
     transclude: true,
+    replace: true,
     scope : true,
     link : function(scope, element, attrs){
     	scope.editable = false;
     	scope.toggleEdit = function(){
-    		scope.editable = !scope.editable;
+    		attrs.$set('contenteditable', !scope.editable);
+    		scope.editable = !scope.editable; 
     	};
     }
   };

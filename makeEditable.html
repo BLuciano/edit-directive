@@ -1,5 +1,5 @@
 <section class="make-editable">
 	<input ng-show="editable" ng-click="toggleEdit()" type="button" value="Save" class="btn">
 	<input ng-show="!editable"  ng-click="toggleEdit()" type="button" value="Edit" class="btn">
-	<span ng-transclude ng-class="{edit : editable}" class="text" contenteditable="false"></span>
+	<p ng-transclude ng-class="{edit : editable}" class="text" contenteditable="false"></p>
 </section>
